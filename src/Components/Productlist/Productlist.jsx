@@ -1,5 +1,5 @@
 import React from 'react'
-import"./ProductList.scss"
+import"./Productlist.scss"
 import Card from '../Card/Card'
 import Loading from '../Loading/Loading'
 
