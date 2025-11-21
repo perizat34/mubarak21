@@ -10,7 +10,7 @@ function Signin() {
 
     const [password, setPassword] = useState("")
 
-    async function  () {
+    async function crateLogin () {
         try {
             const res = await signInWithEmailAndPassword(auth, login, password)
 
@@ -40,7 +40,7 @@ function Signin() {
                 <input onChange={(e) => setLogin(e.target.value)} value={login} type="text" placeholder='Email or Phone Number' />
                 <input onChange={(e) => setPassword(e.target.value)} value={password} type="text" placeholder='Password' />
                 <div className='signinBtn'>
-                    <button onClick={(e) => setLogin(e.target.value)} value={login}>Log in</button>
+                    <button onClick={crateLogin} >Log in</button>
                     <Link>Forget Password</Link>
                 </div>
             </div>
