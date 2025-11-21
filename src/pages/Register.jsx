@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
-import {auth} from '../firebase'
+import {auth} from '../Firebase'
 import {createUserWithEmailAndPassword} from 'firebase/auth'
 
 function Register() {
