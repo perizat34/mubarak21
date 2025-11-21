@@ -1,0 +1,371 @@
+.cartBody {
+    width: 1170px;
+    height: 786px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    /* border: black solid 2px; */
+}
+
+.criteria {
+    width: 1170px;
+    height: 72px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    background: var(--Primary, rgba(255, 255, 255, 1));
+    list-style: none;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.criteria li {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cartCard {
+    margin-top: 130px;
+    width: 1170px;
+    height: 102px;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 65px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    background: var(--Primary, rgba(255, 255, 255, 1));
+}
+
+.cartProduct {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.cartProduct h1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cartProduct img {
+    width: 48.88px;
+    height: 42.22px;
+}
+
+.cartPrice {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cartCard input {
+    width: 72px;
+    height: 44px;
+    padding-left: 20px;
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cartCard h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cartBtns {
+    margin-top: 25px;
+    width: 1170px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartBtns button {
+    padding: 16px 48px 16px 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: white;
+}
+
+.cartTotal {
+    margin-top: 80px;
+    width: 1170px;
+    height: 324px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartCoupon input {
+    width: 300px;
+    height: 56px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 25px;
+}
+
+.cartCoupon button {
+    width: 211px;
+    height: 56px;
+    color: white;
+    border-radius: 4px;
+    background: var(--Button2, rgba(219, 68, 68, 1));
+    border: none;
+}
+
+.total {
+    width: 470px;
+    height: 324px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    padding: 32px 24px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.total h1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.total p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.totalSubtotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalShipping {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalTotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalLine {
+    width: 422px;
+    height: 0;
+    border: 1px solid grey;
+}
+
+.total button {
+    width: 260px;
+    height: 56px;
+    border-radius: 4px;
+    background: var(--Button2, rgba(219, 68, 68, 1));
+    border: none;
+    color: white;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    width: 72px;
+    height: 44px;
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    justify-content: space-between;
+    padding: 8px  12px;
+}
+.quantity-icons{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    font-size: 26px;
+
+}
+.arrow{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+.shop {
+    width: 805px;
+    height: 781px;
+}
+
+.signupBody {
+    margin-top: 60px;
+    width: 1305px;
+    height: 781px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signupInput {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.signupInput input {
+    color: grey;
+    border: none;
+    flex-direction: column;
+    border-bottom: 1.5px solid lightgray;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.signupTxt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.signupTxt h1 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.signupTxt h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.signupBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 371px;
+    height: 188px;
+}
+
+.signupBtn a {
+    text-decoration: none;
+    color: rgba(219, 68, 68, 1);
+}
+
+.create {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    width: 371px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background: rgba(219, 68, 68, 1);
+}
+
+.google {
+    width: 371px;
+    height: 56px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+/* ---------------------------------------SIGN IN-------------------------------------------------------- */
+
+.signinBody {
+    margin-top: 60px;
+    width: 1305px;
+    height: 781px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signinInput {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.signinInput input {
+    color: grey;
+    border: none;
+    flex-direction: column;
+    border-bottom: 1.5px solid lightgray;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.signinTxt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.signinTxt h1 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.signinTxt h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.signinBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signinBtn button {
+    width: 143px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background: rgba(219, 68, 68, 1);
+}
+
+.signinBtn a {
+    text-decoration: none;
+    color: rgba(219, 68, 68, 1);
+}
